@@ -10,8 +10,8 @@ import UIKit
 
 @objc
 public protocol FPNTextFieldDelegate: UITextFieldDelegate {
-	func fpnDidSelectCountry(name: String, dialCode: String, code: String)
-	func fpnDidValidatePhoneNumber(textField: FPNTextField, isValid: Bool)
+    func fpnDidSelectCountry(name: String, dialCode: String, code: String, selectedCountryField: Int)
+    func fpnDidValidatePhoneNumber(textField: FPNTextField, isValid: Bool)
 
-	func fpnDisplayCountryList()
+    func fpnDisplayCountryList(selectedCountryTextField: Int)//this delegate make paramaterise by ashish
 }

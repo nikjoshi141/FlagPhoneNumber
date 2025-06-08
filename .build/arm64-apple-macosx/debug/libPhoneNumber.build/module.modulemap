@@ -1,0 +1,4 @@
+module libPhoneNumber {
+    umbrella "/Users/nikhiljoshi/Documents/Programming/XcodeProjects/Personal/Pod(FPN)/FlagPhoneNumber/Sources/libPhoneNumber"
+    export *
+}
